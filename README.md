@@ -2,7 +2,9 @@
 
 > **One sentence → full, styled landing page.** Built by Smarya Narang.
 
-Type a single sentence describing your product. Claude AI generates a complete, downloadable landing page with unique branding, copy, and color palette — every time.
+**[Live Demo](https://pageforge.vercel.app)**
+
+Type a single sentence describing your product. Groq AI generates a complete, downloadable landing page with unique branding, copy, and color palette — every time.
 
 ---
 
@@ -62,7 +64,7 @@ pageforge/
 
 ```bash
 # Edit .env in the project root
-ANTHROPIC_API_KEY=sk-ant-...
+GROQ_API_KEY=gsk_...
 ```
 
 ### 2. With Docker (recommended — one command)
@@ -99,7 +101,7 @@ npm run dev
 |-------|------|
 | Frontend | React 18 + Vite |
 | Styling | Pure CSS variables |
-| AI | Claude API (`claude-sonnet-4-5`) |
+| AI | Groq API (`llama-3.3-70b-versatile`) |
 | Backend | FastAPI (Python 3.12) |
 | Deploy | Docker + Docker Compose |
 | Hosting | Vercel (frontend) + Railway (backend) |
@@ -123,7 +125,7 @@ cd frontend && npm run build
 
 **Backend → Railway**
 - Point to `Dockerfile.backend`
-- Add `ANTHROPIC_API_KEY` in Railway env vars
+- Add `GROQ_API_KEY` in Railway env vars
 - Update CORS origins in `backend/main.py`
 
 ---
