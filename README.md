@@ -2,7 +2,7 @@
 
 > **One sentence → full, styled landing page.** Built by Smarya Narang.
 
-**[Live Demo](https://pageforge.vercel.app)**
+**[Live Demo](https://pageforge-smarya.vercel.app/)**
 
 Type a single sentence describing your product. Groq AI generates a complete, downloadable landing page with unique branding, copy, and color palette — every time.
 
